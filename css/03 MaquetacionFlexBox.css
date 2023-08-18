@@ -1,0 +1,100 @@
+/*3. separar un poco todos los elementos*/
+*{
+  margin: 10px;
+  padding: 10px;
+}
+
+/*1. cambiar color de fondo del body*/
+body{
+  background-color: #84b286;
+}
+
+/*2. tamaño a la capa contenedora y cajas*/
+.flex-container{
+  background-color: rgba(255, 255, 255, 0.717);
+  color: white;
+  border: 2px solid black;
+  display: flex;/*7. Se alinean a la derecha las cajas*/
+  flex-direction: row; /*8. alineación por defecto row también se puede indicar column
+  row-reverse, column-reverse*/
+
+  /*9. aumentar mas div: flex-wrap: nowrap hace que se ajusten el numero de cajas a la derecha
+  wrap que pasen las cajas que no alcancen a la siguiente fila  */
+  justify-content: center;
+  /*10. justify-content:flex-star por defecto, center, baseline, end, flex-end
+  flex-arround(crea un espacio), space-beetween*/
+  /*11.alineación vertical align-items: flex-start, flex-end, center*/
+  /*12. aling-content: space-between, center, */
+  /*Apoyate en el inspector de propiedades para verificar c/u de ellas, en paginas
+  como  Flexy Boxes
+  Tutorial FlexBox https://www.youtube.com/watch?v=KG5XSr_5LkE
+  Material para HTMLCSS https://developer.mozilla.org/en-US/
+  Maquetacion https://www.w3schools.com/css/css3_flexbox_responsive.asp*/
+  
+  
+}
+.flex-box{
+  background-color: #ee6537;
+  border: 5px solid black;
+  font-size: 4rem;/*4.cambiar tamaño de la fuente*/
+  text-align: center;/*5*/
+  width: 150px;/*6*/
+  
+  flex-grow: 1; /*13.flex-grow: 1; ajusta el tamaño de las cajas al tamaño del contenedor
+  */
+  /*14. order: 4, indica el lugar que ocupara la caja en el diseño*/
+
+}
+
+
+
+
+
+/* /* styles.css 
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+.header {
+  background-color: #2C3E50;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.sidebar {
+  flex: 1;
+  background-color: #ECF0F1;
+  padding: 20px;
+}
+
+.content {
+  flex: 2;
+  background-color: #F5B041;
+  padding: 20px;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+ */
+
+ /* styles.css */

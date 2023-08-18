@@ -1,0 +1,131 @@
+/*Selector universal*/
+
+/* *{
+	color:green;
+} */
+
+
+/*2. Formato de texto*/
+body {
+    font-family: Tahoma;
+  }
+  
+  h1 {
+    color: #FF5733;
+  }
+  
+  p {
+    font-size: 16px;
+    text-align: justify;
+  }
+
+  /* styles.css */
+
+  /*Manejo de colores*/
+button {
+    background-color: #3498DB;
+    color: rgb(153, 40, 40);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  a {
+    color: #E74C3C;
+    text-decoration: none;
+  }
+  
+  /* a:link{
+    color:green;
+  }
+  a:visited{
+    color:olive;
+  } */
+  
+  /*Otros estilos de formato y color*/
+  .bold-italic {
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  .large-text {
+    font-size: 24px;
+    line-height: 1.5;
+  }
+
+  .underline {
+    text-decoration: underline;
+  }
+  
+  .strikethrough {
+    text-decoration: line-through;
+  }
+
+  /*Manejo de color*/
+  .gradient-bg {
+    background: linear-gradient(to right, #FF5733, #E74C3C);
+    color: white;
+  }
+
+  .text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  /*cambiar el color de fondo al pasar el cursor*/
+  .hover-bg {
+    background-color: #3498DB;
+    transition: background-color 0.3s;
+  }
+  
+  .hover-bg:hover {
+    background-color: #E74C3C;
+  }
+
+  /*Estilos con enlaces*/
+  .link {
+    color: #3498DB;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+
+  /*trabajar con colores hexadecimal*/
+  /* styles.css */
+.background-div {
+    background-color: #3498DB; /* Color de fondo en notación hexadecimal */
+    color: white;
+    padding: 20px;
+    /* styles.css */
+}
+.gradient-div {
+    background: linear-gradient(to right, #FF5733, #E74C3C); /* Gradiente de fondo en notación hexadecimal */
+    color: white;
+    padding: 20px;
+  }
+  
+/*trabajando con imagenes*/
+/* styles.css */
+.image-style {
+    width: 300px;
+    height: auto;
+    border: 2px solid #333;
+  }
+ 
+  /*Efecto de botton*/
+  /* styles.css */
+.hover-button {
+    background-color: #3498DB;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .hover-button:hover {
+    background-color: #E74C3C;
+    color: yellow;
+  }
+  
