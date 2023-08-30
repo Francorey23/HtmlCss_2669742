@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    pad: 0;
+}
+
+.container{
+    padding: 20px;
+    margin: auto;
+}
+main{
+    background-color: aquamarine;
+    display: flex;
+   
+}
