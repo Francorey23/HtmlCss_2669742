@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* pantalla 0 a 500 px SM */
+@media screen and (max-width:500px){
+   header{
+    flex-wrap:wrap;
+    position: unset;
+    margin: auto auto;
+  }
+  .vesper{
+    margin-top: 10px;
+  }
+    .boton_get{
+    margin-top: 10px;    
+    background-color: #64CCC5;
+    color: #fff;
+    font-size: 1.5rem;
+    height: 45px;
+    width: 235px;
+    padding: 4px 4px;
+    border-radius: 10px;
+    }
+    ul{
+        margin-top: 10px;
+        flex-wrap: wrap;
+    }
+    main{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 80px;
+    } 
+    .img_grow{
+        width: 80%;
+    } 
+  
+    .sm-12{
+        width: 100%;
+    }
+    .sm-11{
+        width: 91.666%;
+    }
+    .sm-10{
+        width: 83.3333%;
+    }
+    .sm-9{
+        width: 75%;
+    }
+    .sm-8{
+        width: 66.6666%;
+    }
+    .sm-7{
+        width: 58.3333%;
+    }
+    .sm-6{
+        width: 50%;
+    }
+    .sm-5{
+        width: 41.6666%;
+    }
+    .sm-4{
+        width: 33.3333%;
+    }
+    .sm-3{
+        width: 25%;
+    }
+    .sm-2{
+        width: 16.6666%;
+    }
+    .sm-1{
+        width: 8.3333%;
+    }
+    
+}
+/* pantalla 501  a 800px MD */
+@media screen and (min-width:501px) and (max-width:800px) {
+    
+     header{
+        margin-left: 10px;
+        flex-wrap:wrap;
+      }
+    .boton_get{
+        background-color: #64CCC5;
+        color: #fff;
+        height: 45px;
+        width: 135px;
+        padding: 4px 4px;
+        border-radius: 10px;
+        }
+        .img_grow{
+            width: 300px;
+        } 
+
+        .md-12 {
+            width: 100%;
+        }
+    
+        .md-11 {
+            width: 91.666%;
+        }
+    
+        .md-10 {
+            width: 83.3333%;
+        }
+    
+        .md-9 {
+            width: 75%;
+        }
+    
+        .md-8 {
+            width: 66.6666%;
+        }
+    
+        .md-7 {
+            width: 58.3333%;
+        }
+    
+        .md-6 {
+            width: 50%;
+        }
+    
+        .md-5 {
+            width: 41.6666%;
+        }
+    
+        .md-4 {
+            width: 33.3333%;
+        }
+    
+        .md-3 {
+            width: 25%;
+        }
+    
+        .md-2 {
+            width: 16.6666%;
+        }
+    
+        .md-1 {
+            width: 8.3333%;
+        }
+
+}
+/* pantalla 801  a 1200px LG */
+@media screen and (min-width:801px) and (max-width:1200px) {
+    
+                .lg-12 {
+                    width: 100%;
+                }
+        
+                .lg-11 {
+                    width: 91.666%;
+                }
+        
+                .lg-10 {
+                    width: 83.3333%;
+                }
+        
+                .lg-9 {
+                    width: 75%;
+                }
+        
+                .lg-8 {
+                    width: 66.6666%;
+                }
+        
+                .lg-7 {
+                    width: 58.3333%;
+                }
+        
+                .lg-6 {
+                    width: 50%;
+                }
+        
+                .lg-5 {
+                    width: 41.6666%;
+                }
+        
+                .lg-4 {
+                    width: 33.3333%;
+                }
+        
+                .lg-3 {
+                    width: 25%;
+                }
+        
+                .lg-2 {
+                    width: 16.6666%;
+                }
+        
+                .lg-1 {
+                    width: 8.3333%;
+                }
+
+
+}
+/* pantalla 1200px al infinito XL */
+@media screen and (min-width:1201px) {
+   
+        .xl-12 {
+            width: 100%;
+        }
+    
+        .xl-11 {
+            width: 91.666%;
+        }
+    
+        .xl-10 {
+            width: 83.3333%;
+        }
+    
+        .xl-9 {
+            width: 75%;
+        }
+    
+        .xl-8 {
+            width: 66.6666%;
+        }
+    
+        .xl-7 {
+            width: 58.3333%;
+        }
+    
+        .xl-6 {
+            width: 50%;
+        }
+    
+        .xl-5 {
+            width: 41.6666%;
+        }
+    
+        .xl-4 {
+            width: 33.3333%;
+        }
+    
+        .xl-3 {
+            width: 25%;
+        }
+    
+        .xl-2 {
+            width: 16.6666%;
+        }
+    
+        .xl-1 {
+            width: 8.3333%;
+        }
+}

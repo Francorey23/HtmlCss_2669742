@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    width: 90%;
+    margin: auto auto;
+    background-color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    display: flex;
+    height: 160px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: dimgrey;
+}
+
+.boton_get {
+    display: flex;
+    background-color: #3498DB;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 95px;
+    padding: 4px 4px;
+    border-radius: 30px;
+}
+
+/*Menu desplegable*/
+header ul li a:hover {
+    background-color: #3498DB;
+    color: #fff;
+}
+
+header ul li ul {
+    position: absolute;
+    width: 100px;
+    background-color: #3498DB;
+    display: none;
+}
+
+header ul li ul li {
+    width: 100%;
+    border-top: 1px solid rgb(0, 0, 0, 0.1);
+}
+
+header ul li:focus-within>ul,
+header ul li:hover>ul {
+    display: block;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    /* flex-wrap: wrap; */
+}
+
+.h1_grow {
+    font-size: 5rem;
+    margin-bottom: 10px;
+
+}
+
+.h3_grow {
+    font-size: 2rem;
+}
+
+.btn_grow {
+    display: flex;
+    background-color: #3498DB;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 95px;
+    padding: 4px 4px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+.marcas {
+    display: flex;
+    gap: 10px;
+    height: 60px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img_clients {
+    width: 60px;
+    height: 30px;
+    object-fit: cover;
+}
+
+.img_grow_c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
